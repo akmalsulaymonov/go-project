@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/akmalsulaymonov/go-project/internal/network"
+)
 
 func main() {
-	fmt.Println("Awesome CLI v.1.0.0")
+	fmt.Println("Awesome CLI v.0.0.1")
+
+	network.Ping("127.0.0.1")
 }
